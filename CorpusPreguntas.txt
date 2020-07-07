@@ -1,0 +1,288 @@
+Preguntas Tipo persona
+
+¿Quién es Guzmán Lucia?
+Dame el numero económico de Guzmán Lucia
+¿Cuál es la matricula de Guzmán Lucia?
+Dime el nombre del alumno con matricula 206200000
+¿De quien es el numero económico 00000?
+¿Cuál es el correo de Hernández Sergio?
+¿Quien es Guzmán Lucia?
+¿Cuál es la categoría de Alcántara Sergio?
+¿A quien le pertenece el numero económico 0000?
+Cual es el nombre del estudiante con matricula 207400000
+Dime la matricula de Guzmán Lucia
+¿cuál es la categoría de Guzmán Lucia?
+Dime la matricula del alumno Alcántara Sergio
+¿Quien es Guzmán Lucia?
+Dame el numero económico de Guzmán Lucia
+¿De quien es el numero económico 0000?
+Dime la matricula de Guzmán Lucia
+¿Cual es el correo de Guzmán Lucia?
+¿quién es Guzmán Lucia?
+¿cuál es la matricula de Diego Pérez?
+Dame la matricula Cruz Salas
+¿A quien le pertenece el numero económico 00?
+¿Quién es Juárez Sergio
+Dame el numero económico de Guzmán Lucia
+¿cuál es la matricula de Gabriela García?
+Dime el nombre del alumno con matricula 210300000
+¿De quien es el numero económico 0000?
+¿Cuál es el correo de Mercado Leticia?
+¿Quien es García Jorge?
+¿Cuál es la categoría de Cruz Jorge?
+¿A quien le pertenece el numero económico 0000?
+¿Cual es el nombre del estudiante con matricula 206240000?
+Dime la matricula de Zavala Berenice
+¿Quien es Portillo Jorge?
+Cual es la matricula de Rodrigo Pérez
+¿quién es Guzmán Lucia?
+Dame el numero económico de Guzmán Lucia
+¿cuál es la matricula de Guzmán Lucia
+Dime el nombre del alumno con matricula 2173030000
+¿De quien es el numero económico 0000?
+¿Cuál es el correo de Juárez Fabio?
+¿Quien es Soto Téllez Pablo?
+¿Cuál es la categoría de Pérez Juan?
+¿A quien le pertenece el numero económico 000?
+Cual es el nombre del estudiante con matricula 2173030000
+Dime la matricula de Díaz Jorge
+¿cuál es la categoría de Pérez Pablo?
+Dime la matricula del alumno Pérez Pablo
+¿Quien es Pérez Pablo?
+Dame el numero económico de Pérez Pablo
+¿De quien es el numero económico 0000?
+Dime la matricula de Pérez Pablo
+¿Cual es el correo de Pérez Pablo?
+¿quién es García Jorge?
+¿cuál es la matricula de Carlos Pérez?
+Dame la matricula María García
+¿A quien le pertenece el numero económico 0000?
+¿Quién es quintana Pérez Pablo?
+Dame el numero económico de Pérez Pablo
+¿cuál es la matricula de Pérez Pablo?
+Dime el nombre del alumno con matricula 2173000000
+¿De quien es el numero económico 0?
+¿Cuál es el correo de Pérez Pablo?
+¿Quien es Pérez Pablo?
+¿Cuál es la categoría de Pérez Pablo?
+¿A quien le pertenece el numero económico 000?
+¿Cual es el nombre del estudiante con matricula 2173000000?
+Dime la matricula de Pérez Pablo
+¿Cuál es la categoría de Pérez Pablo?
+Cual es la matricula de Pérez Pablo
+¿Cuál es el correo de Pérez Pablo?
+¿Quien es Pérez Pablo?
+¿Cuál es la categoría de Pérez Pablo?
+¿A quien le pertenece el numero económico 00000?
+¿Cual es el nombre del estudiante con matricula 207330000?
+Dime la matricula de Pérez Pablo
+¿Quien es Pérez Pablo?
+Cual es la matricula de Pérez Pablo
+¿quién es Pérez Pablo?
+Dame el numero económico de Pérez Pablo
+¿cuál es la matricula de Pérez Pablo
+Dime el nombre del alumno con matricula 206300000
+¿De quien es el numero económico 00000?
+¿Cuál es el correo de Pérez Pablo?
+¿Quien es Pérez Pablo?
+¿Cuál es la categoría de Pérez Pablo?
+¿A quien le pertenece el numero económico 00000?
+Cual es el nombre del estudiante con matricula 207200000
+Dime la matricula de Pérez Pablo
+¿cuál es la categoría de Pérez Pablo?
+Dime la matricula del alumno Pérez Pablo
+¿Quien es Pérez Pablo?
+Cuál es el numero económico de Pérez Pablo
+¿De quien es el numero económico 00000?
+Dime la matricula de Pérez Pablo
+¿Cual es el correo de Pérez Pablo?
+¿quién es Pérez Pablo?
+¿cuál es la matricula de Pérez Pablo?
+Dame la matricula Pérez Pablo
+¿A quien le pertenece el numero económico 00000?
+¿Quién es quintana Pablo García?
+Dame el numero económico de Pablo García
+¿cuál es la matricula de Pablo García?
+Dime el nombre del alumno con matricula 207300000
+¿De quien es el numero económico 0000?
+¿Cuál es el correo de Pablo García?
+¿Quien es  Pablo García?
+¿Cuál es la categoría de Pablo García?
+¿A quien le pertenece el numero económico 0000?
+¿A quien le pertenece la matricula 2173000000?
+Dime el nombre del profesor con numero económico 0000
+
+___________________________________________________________
+
+Preguntas Tipo Espacio Físico
+
+Donde se encuentra la cafetería
+Dime donde esta el gimnasio
+Donde esta la biblioteca
+Donde esta el auditorio F001
+Donde se encuentra el auditorio w002
+Donde esta la plaza roja
+Donde esta la sala g206
+Donde esta el edificio S
+Donde se encuentra el edificio B
+Donde están las cajas
+Dime donde esta la oficina de posgrado
+Donde estos sistemas escolares
+Donde encuentro el auditorio B001
+Donde esta el edificio HP
+Donde esta el edificio G
+Que auditorios contiene el edificio W
+Que contiene el edificio C
+Dime la ubicación del auditorio W001
+Donde encuentro el auditorio W003
+
+___________________________________________________________
+
+Preguntas Tipo Evento
+
+Dime la fecha del curso de procesamiento de lenguaje natural
+Cuando es el curso de seminario 2 de maestría
+Cuando es el curso de fundamentos de estadística y diseño de experimentos
+¿cuándo se realiza el curso de termodinámica de procesos
+Cuando se realiza el curso de fundamentos de termodinámica
+Cual es el nombre del curso del 16 de octubre
+Cuando es el seminario de innovación docente
+Dime la fecha del seminario de jóvenes y empleo
+Cuando se realiza el seminario sobre identidades de genero
+Dime la fecha del seminario internacional de ciencia ciudadana
+Cuando es el seminario de inteligencia artificial
+Cuando se realiza el taller de creación literaria
+Dime la fecha del taller de diversidad en la sexualidad
+Cual es el nombre del taller del 10 de mayo
+Cuando es el taller de prevención de violencia contra las mujeres
+Cuando es el taller de universidad y alimentación
+Dime la fecha del taller de la ciencia de chocolate
+Cual es el nombre del congreso del 18 de junio
+Cuando es el congreso de la sociología analítica
+Como se llama el congreso del 15 de enero
+Cuando es el congreso internacional de docencia e investigación en química
+Nombre del congreso del 19 de octubre
+Cuando se realizara el congreso de ingeniería en Azuero
+Cual es el nombre del congreso del 12 de febrero
+Cual es el nombre del congreso del 24 de junio
+Cuando se realizara el congreso vive la ciencia
+Dime el nombre del congreso del 19 de noviembre
+Cuando se realizara el congreso nacional de ingeniería electromecánica y de sistemas
+Cuando fue la asesoría de investigación de operaciones
+Cuando se realizo la asesoría para alumno de posgrado
+Dime la fecha de asesoría para alumnos de posgrado
+Dime la hora de la asesoría de fundamentos de programación
+Cuando es la asesoría de matemáticas discretas
+De que es la asesoría del 16 de agosto
+De que trata la asesoría de microcontroladores
+De que trata la asesoría de tutores
+Dime la fecha de la demostración de numero dicromático como generalización del numero cromático
+Dime la descripción de la presentación de la revista diferencias
+De que trata el taller de modos de leer critica política y literatura
+De que trata el taller paisajismo 101
+
+___________________________________________________________
+
+Preguntas Tipo Persona-Evento
+
+Quienes participan en asesoría de ingeniería y sociedad
+Quienes participan en asesoría de sistemas distribuidos
+Quienes participan en asesoría de inteligencia artificial
+Quienes participan en asesoría de compiladores
+Quienes participan en asesoría de costos
+Quienes participan en asesoría de química
+Quienes participan en asesoría de diseño lógico
+Quienes participan en asesoría de algebra lineal
+Quienes participan en asesoría de calculo integral
+Quienes participan en asesoría de ingeniería ambiental
+Quienes participan en asesoría de sistemas digitales
+Quienes participan en asesoría de calculo diferencial
+Quienes participan en demostración de bola alegre y bola triste en colisiones
+Quienes participan en seminario de inteligencia artificial 2017
+Quienes participan en seminario 3r reducir reutilizar reciclar un enfoque necesario para el desarrollo
+Quienes participan en seminario de nanotecnología ciencia y tecnología para la vida
+Quienes participan en seminario de semítica del arte perspectivas contemporáneas
+Quienes participan en seminario para alumnos de licenciatura
+Quienes participan en seminario de física
+Quienes participan en seminario de wavelets
+Quienes participan en seminario de ondas ópticas no lineales en nano coloides
+Quienes participan en seminario de hacia una teoría política del signo virtual
+Quienes participan en seminario de humanidades y teoría social
+Quienes participan en seminario de proyecto en ciencias e ingeniería ambientales
+Quienes participan en seminario de el proceso penal acusatorio
+Quienes participan en seminario de la teoría de las dominancias cerebrales en los procesos de enseñanza aprendizaje
+Quienes participan en seminario de recursos digitales educativos para principiantes
+Quienes participan en congreso de la sociología analítica
+Quienes participan en congreso nacional de investigación en cambio climático
+Quienes participan en congreso internacional de docencia e investigación en química
+Quienes participan en congreso internacional de avances de mujeres en las ciencias
+Quienes participan en congreso de ingeniería en Azuero
+Quienes participan en congreso internacional e interdisciplinario Alexander von Humboldt
+Quienes participan en congreso iberoamericano de tecnología e innovación en la industria aec
+Quienes participan en congreso vive la ciencia
+Quienes participan en congreso internacional de investigación sobre usuarios de la información
+Quienes participan en congreso nacional de ingeniería electromecánica y de sistemas
+Quienes participan en congreso nacional de ingenierías
+Quienes participan en presentación de la teoría critica y sociología pragmatista modos de su compatibilidad
+Quienes participan en presentación de la revista anfibia
+
+___________________________________________________________
+
+Preguntas Tipo Persona-Espacio Físico
+
+¿Cuál es el cubículo del profesor pablo García?
+¿a quien le pertenece el cubículo h000?
+¿cuál es la oficina de pablo García?
+¿cuál es la oficina del profesor con numero económico 00000?
+A quien le pertenece el cubículo h000
+Cual es la oficina del profesor palo García
+Donde se encuentra la doctora maría García
+A quien le pertenece el cubículo h000
+
+___________________________________________________________
+
+Preguntas Tipo Evento-Espacio Físico
+
+Donde se realizará el curso de procesamiento de lenguaje natural
+Donde es el curso de seminario 2 de maestría
+Donde es el curso de fundamentos de estadística y diseño de experimentos
+Donde es el seminario de innovación docente
+Donde es el seminario de jóvenes y empleo
+Donde es el seminario del 18 de junio
+Donde se realiza el seminario internacional de ciencia ciudadana
+Donde es el seminario de inteligencia artificial
+Donde es el taller de creación literaria
+Donde es el taller de 18 abril
+Donde es el taller de enfoque hacia tu carrera profesional
+Donde es el taller de prevención de violencia contra las mujeres
+Donde es el taller de universidad y alimentación
+Donde se encuentra el taller de la ciencia de chocolate
+Donde se realiza el congreso del 18 de junio
+Donde se realiza el congreso de la sociología analítica
+Donde se realiza el congreso nacional de investigación en cambio climático
+Sonde se realiza el congreso del 25 de enero
+Donde se realiza el congreso internacional de avances de mujeres en las ciencias
+Donde se realiza el congreso de ingeniería en Azuero
+Donde se realiza el congreso internacional e interdisciplinario Alexander von Humboldt
+Donde se realiza el 24 de junio 
+Donde se realiza el congreso vive la ciencia
+Donde se realiza el congreso internacional de investigación sobre usuarios de la información
+Donde se realiza el congreso nacional de ingeniería electromecánica y de sistemas
+Donde se realiza la asesoría de investigación de operaciones
+Donde se realiza la asesoría para alumno de posgrado de mcc
+Donde se realiza la asesoría para alumnos de posgrado
+Donde se realiza la asesoría de fundamentos de programación
+Donde se realiza la asesoría de matemáticas discretas
+Donde se realiza la asesoría de  análisis y diseño de algoritmos
+Donde se realiza la asesoría de microcontroladores
+Donde se realiza la asesoría de tutores
+Donde se realiza la asesoría de ingeniería y sociedad
+Donde se realiza la asesoría de sistemas distribuidos
+Donde se realiza la asesoría de inteligencia artificial
+Donde se realiza la asesoría de compiladores
+Donde se realiza la asesoría de costos
+Donde se realiza la asesoría de química
+Donde se realiza el taller paisajismo 101
+
+
+
