@@ -153,6 +153,7 @@ public class Tupla {
                                }else{
                                    tupla.add("hasName");
                                }
+                               
                            }
                        }
                    }
@@ -206,8 +207,9 @@ public class Tupla {
                            tupla.add("DataProperty");
                            
                        }
-                       //modificiacion evento evaluaciones 6 de febrero
+                       //modificacion 8 de febrero evaluaciones evento
                    if((extraccion.get(2).contains("nombre"))||(extraccion.contains("cuando"))){
+                       System.out.println("Estoy aqui");
                        tupla.add(extraccion.get(1));
                        tupla.add("hasEventName");
                        tupla.add("DataProperty");

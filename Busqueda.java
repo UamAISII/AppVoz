@@ -332,7 +332,7 @@ public class Busqueda {
                         }
                     }
 
-                    respuesta = tupla.get(1) + " ESTA " + tupla.get(5).trim() + " " + resp + " Y " + tupla.get(7) + " " + resp2;
+                    respuesta = "EL " + tupla.get(1) + " ESTA " + tupla.get(5).trim() + " " + resp + " Y " + tupla.get(7) + " " + resp2;
                     respuesta = respuesta.toUpperCase();
 
                 } else {
@@ -356,7 +356,7 @@ public class Busqueda {
                             }
                         }
                     }
-                    respuesta = tupla.get(1) + " ESTA " + tupla.get(5).trim() + resp;
+                    respuesta = "EL " + tupla.get(1) + " ESTA " + tupla.get(5).trim() + resp;
                     respuesta = respuesta.toUpperCase();
 
                 }
@@ -576,8 +576,6 @@ public class Busqueda {
         } catch (OWLOntologyCreationException | SQWRLException ex) {
             Logger.getLogger(Busqueda.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
-       // System.out.println("Query: "+query);
         return respuesta;
     }
 }

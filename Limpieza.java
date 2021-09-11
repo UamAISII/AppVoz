@@ -19,6 +19,8 @@ import java.util.regex.Pattern;
  */
 public class Limpieza {
     
+
+
         //palabras archivo con arraylist 
         public ArrayList<String> palabrasArchivo(String archivo){       
         
@@ -39,9 +41,11 @@ public class Limpieza {
         }
     
         
-        //nombres de lugares cubiculos
+        //nombres de lugares
         public String lugares(String oracionC){
 
+            
+                    //juntar nombres de lugares
         String palabra=oracionC;
         String oracionF="";
         Matcher c1,c2,c3,l2;
@@ -59,7 +63,7 @@ public class Limpieza {
 
                     if(l2.matches()||c1.matches()||c2.matches()||c3.matches()){
                         oracion2=palabra.split(" ");
-                        Pattern uno = Pattern.compile("[h|p|w|g|b|d]");
+                        Pattern uno = Pattern.compile("[h|p|w]");
                         Matcher dos;
                         for (int i = 0; i < oracion2.length; i++) {
                             dos=uno.matcher(oracion2[i]);
@@ -74,7 +78,6 @@ public class Limpieza {
                             }
                             
                         }
-                        System.out.println("Encontrado:"+oracionF);
                     }else{
                         oracionF=oracionC;
                     }
@@ -82,9 +85,11 @@ public class Limpieza {
             return oracionF;
         }
         
-        //juntar digitos de numero economico o matricula        
+        
         public String matriculas(String oracionC){
-        String oracionF="";
+            String oracionF="";
+            
+        //juntar digitos de numero economico o matricula
         Pattern matricula2 = Pattern.compile("^[0-9]{2,3}");
         Pattern matricula =Pattern.compile("^[0-9].*");
         String[] oracionS=oracionC.split(" ");
@@ -116,7 +121,6 @@ public class Limpieza {
 
 
                             }
-                                    System.out.println("2="+oracionF);
                         }else{
                             oracionF=oracionC;
                         }
@@ -151,10 +155,13 @@ public class Limpieza {
             }
             
         }
+        
         oracionC=lugares(oracionC);
+                
         
         oracionC=matriculas(oracionC);        
 
         return oracionC;
     }
+    
 }

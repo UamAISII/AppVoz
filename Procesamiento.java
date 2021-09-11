@@ -102,20 +102,19 @@ public class Procesamiento {
                 tipoSujeto = "cubiculo";
             } else {
                 mat = numero.matcher(p1);
-                System.out.println("Estoy aqui");
                 if (mat.matches()) {
-                    System.out.println("Aqui entre");
                     su = p1;
                     if (su.length() > 8) {
                         tipoSujeto = "matricula";
                     } else {
                         tipoSujeto = "numero economico";
                     }
-                } else //mat=email.matcher(p1);
-                if (p1.contains("@")) {
+               } else{   
+                    //mat=email.matcher(p1);
+                    if (p1.contains("@")) {
                     su = p1;
                     tipoSujeto = "correo";
-                } else {
+                    } else {
 
                         for (int j = 0; j < nombres.size(); j++) {
                             nombre = nombres.get(j);
@@ -126,7 +125,8 @@ public class Procesamiento {
                                 System.out.println("Su: "+su);
                             }
                         }
-                    tipoSujeto = "nombre";
+                        tipoSujeto = "nombre";
+                    }
                 }
             }
         }
@@ -149,12 +149,6 @@ public class Procesamiento {
         Pattern a2 = Pattern.compile("^ho[0-9].*");
         Pattern la = Pattern.compile("^[a-z]{1,2}");
 
-        //nuevo
-        Pattern cub2 = Pattern.compile("^[h|p|w][ x0Bf ][0-9].*");
-        Pattern cub3 = Pattern.compile("^hp[ x0Bf ][0-9].*");
-        Pattern cub4 = Pattern.compile("^ho[ x0Bf ][0-9].*");
-        Pattern lu2 = Pattern.compile("^[a-z]{1,2}[ x0Bf ][0-9].*");
-        
         //catalogo de lugares
         for (int i = 0; i < lugares.size(); i++) {
             lugar = lugares.get(i);
@@ -172,28 +166,22 @@ public class Procesamiento {
         if (bandera == 0) {
             p = pregunta.split(" ");
             for (int k = 0; k < p.length; k++) {
-                Matcher m, n, o, r, g, f,c1,c2,c3,l2;
+                Matcher m, n, o, r, g, f;
                 palabra = p[k];
                 m = lu.matcher(palabra);
                 f = la.matcher(palabra);
-                l2=lu2.matcher(palabra);
                 //letras y numeros
-                if (m.matches() || f.matches()|| l2.matches()) {
+                if (m.matches() || f.matches()) {
                     su = palabra;
                     m = salon.matcher(su);
                     r = cubiculo.matcher(su);
                     n = a1.matcher(su);
                     o = a2.matcher(su);
-                    
-                    //nuevo
-                    c1 = cub2.matcher(su);
-                    c2 = cub3.matcher(su);
-                    c3 = cub4.matcher(su);
 
-                    if (claves.contains("salon") || m.matches() || claves.contains("cubiculo") || r.matches() || n.matches() || o.matches() || claves.contains("edificio")||c1.matches()||c2.matches()||c3.matches()||l2.matches()) {
+                    if (claves.contains("salon") || m.matches() || claves.contains("cubiculo") || r.matches() || n.matches() || o.matches() || claves.contains("edificio")) {
                         tipoSujeto = "nombre";
                         //aqui
-                        if (r.matches() || n.matches() || o.matches() || claves.contains("cubiculo")||c1.matches()||c2.matches()||c3.matches()||l2.matches()) {
+                        if (r.matches() || n.matches() || o.matches() || claves.contains("cubiculo")) {
                             su = "cubiculo " + palabra;
                         } else {
                             if (claves.contains("salon")) {
@@ -296,6 +284,40 @@ public class Procesamiento {
     public String clase(ArrayList<String> clave, String tipo, String tipoSujeto, String pregunta, ArrayList<String> lugares, String su) {
 
         String c = "";
+//        if (tipo.contains("Persona")) {
+//            if (clave.contains("profesor")) {
+//                c = "profesor";
+//            } else {
+//                if (clave.contains("alumno")) {
+//                    c = "alumno";
+//                } else {
+//                    if (clave.contains("ayudante")) {
+//                        c = "ayudante";
+//                    } else {
+//                        if (tipoSujeto == "matricula") {
+//                            c = "alumno o ayudante";
+//                        } else {
+//                            if (tipoSujeto == "numero economico") {
+//                                c = "profesor o ayudante";
+//                            } else {
+//                                if (tipoSujeto == "cubiculo") {
+//                                    c = "profesor";
+//                                } else {
+//                                    if (tipoSujeto == "nombre") {
+//                                        c = "profesor-ayudante-alumno";
+//                                    } else {
+//                                        if (tipoSujeto == "correo") {
+//                                            c = "profesor";
+//                                        }
+//                                    }
+//                                }
+//                            }
+//                        }
+//
+//                    }
+//                }
+//            }
+        
             if (tipo.contains("Persona")) {
             if (clave.contains("profesor")||tipoSujeto=="cubiculo") {
                 c = "profesor";
@@ -321,8 +343,10 @@ public class Procesamiento {
                         }
 
                     }
-                }else {
-            if (tipo.contains("Espacio Fisico")) {
+                }
+            else {
+                
+                if (tipo.contains("Espacio Fisico")) {
 
                 String[] l, p;
                 String lugar, palabra;
@@ -448,11 +472,12 @@ public class Procesamiento {
 
         //limpieza de pregunta
         preguntaLimpia = l.limpiezaPregunta(pregunta);
-
+        System.out.println("Pregunta limpia: "+preguntaLimpia);
+        
         //comparacion con palabras clave
         ArrayList<String> claves = new ArrayList<String>();
         claves = palabrasClave(preguntaLimpia);
-        //System.out.println(claves);
+        System.out.println(claves);
 
         //tipo de pregunta
         String tipo;
